@@ -762,6 +762,40 @@ pre {
 .bodya .bodyc .Popular .latest .late .dl:last-child {
   border: none;
 }
+.bodya .bodyc .poll {
+  width: 281px;
+  margin-top: 45px;
+}
+.bodya .bodyc .poll .latest {
+  width: 280px;
+  box-shadow: 0 0 4px #e3e3e3;
+  margin-top: 12px;
+  *zoom: 1;
+}
+.bodya .bodyc .poll .latest:after,
+.bodya .bodyc .poll .latest:before {
+  content: "";
+  display: table;
+}
+.bodya .bodyc .poll .latest:after {
+  clear: both;
+}
+.bodya .bodyc .poll .latest .late {
+  width: 250px;
+  height: 256px;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.bodya .bodyc .poll .latest .namewhat {
+  color: #131313;
+  font-size: 16px;
+  text-align: center;
+}
+.bodya .bodyc .a {
+  width: 100px;
+}
 .bodya .bodyd {
   width: 280px;
   height: 1895px;
